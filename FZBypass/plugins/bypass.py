@@ -18,22 +18,18 @@ from FZBypass.core.bot_utils import AuthChatsTopics, convert_time, BypassFilter
 @Bypass.on_message(command("start"))
 async def start_msg(client, message):
     await message.reply(
-        f"""<b><i>FZ Bypass Bot!</i></b>
+        f"""<b><i>KR Bypass Bot!</i></b>
     
     <i>A Powerful Elegant Multi Threaded Bot written in Python... which can Bypass Various Shortener Links, Scrape links, and More ... </i>
     
     <i><b>Bot Started {convert_time(time() - BOT_START)} ago...</b></i>
 
-🛃 <b>Use Me Here :</b> @CyberPunkGrp <i>(Bypass Topic)</i>""",
+🛃 <b>Use Me Here :</b> @KR_BOtX""",
         quote=True,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🎓 Dev", url="https://t.me/SilentDemonSD"),
-                    InlineKeyboardButton(
-                        "🔍 Deploy Own",
-                        url="https://github.com/SilentDemonSD/FZBypassBot",
-                    ),
+                    InlineKeyboardButton("🎓 Dev", url="https://t.me/mrTamilKiD"),
                 ]
             ]
         ),
@@ -188,7 +184,7 @@ async def inline_query(client, query):
             InlineQueryResultArticle(
                 title="♻️ Bypass Usage: In Line",
                 input_message_content=InputTextMessageContent(
-                    """<b><i>FZ Bypass Bot!</i></b>
+                    """<b><i>KR Bypass Bot!</i></b>
     
     <i>A Powerful Elegant Multi Threaded Bot written in Python... which can Bypass Various Shortener Links, Scrape links, and More ... </i>
     
@@ -199,7 +195,7 @@ async def inline_query(client, query):
                     [
                         [
                             InlineKeyboardButton(
-                                "FZ Channel", url="https://t.me/FXTorrentz"
+                                "KR Channel", url="https://t.me/KR_BOTZ"
                             ),
                             InlineKeyboardButton(
                                 "Try Bypass", switch_inline_query_current_chat="!bp "
